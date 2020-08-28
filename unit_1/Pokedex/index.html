@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pokedex</title>
+    <link href="https://fonts.googleapis.com/css2?family=Passion+One&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <script
+    src="https://code.jquery.com/jquery-3.3.1.min.js"
+    integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+    crossorigin="anonymous"></script>
+    <script src="app.js" defer></script>
+</head>
+<body>
+    <h1>Pokedex</h1>
+    <div id="container">
+        <div id="input-box">
+            <form>
+                <input type="text" placeholder="Pokemon Name"/>
+                <input type="submit" value="Find Pokemon">
+            </form>
+        </div>
+        <div id="image"></div>
+        <div id="stats">
+            <dl>
+                <dt>Pokemon Name</dt>
+                <dd id="name">loading...</dd>
+        
+                <dt>ID</dt>
+                <dd id="id">loading...</dd>
+        
+                <dt>Type</dt>
+                <dd id="type">loading...</dd>
+            </dl>
+        </div>
+    </div>  
+</body>
+</html>

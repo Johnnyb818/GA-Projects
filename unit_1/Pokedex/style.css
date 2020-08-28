@@ -1,0 +1,42 @@
+
+body {
+    background: url('https://images4.alphacoders.com/119/119638.jpg') ;
+    background-size: cover;
+    height: 100vh;
+    font-family: 'Passion One', cursive;
+    color: rgb(245, 245, 245); 
+    
+}
+
+h1 {
+    font-size: 50px;
+    color: rgb(46, 222, 195);
+    text-align: center;
+    padding-top: 30px;
+}
+
+#container {
+    background-color: red;
+    display: column;
+    border: solid white;
+    max-width: 285px;
+    border-radius: 5%;
+    margin: 100px auto;   
+}
+
+#input-box {
+    padding: 10px;
+}
+
+#image {
+    order:0;
+    height: 30%;
+    width: 30%;
+    align-items: center;
+}
+
+#stats {
+    border: solid white;
+    border-radius: 5%;
+    padding: 10px;
+}

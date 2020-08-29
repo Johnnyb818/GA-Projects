@@ -24,6 +24,8 @@ $('form').on('submit', (event) => {
 
 const closePolaroid = () => {
   $('#modal').css('display', 'none')
+  $('#signature-btn').css('display', 'block')
+  $signature.css('display', 'none')
 }
 
 const openPolaroid = () => {
